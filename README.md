@@ -68,7 +68,7 @@ kubectl get all -n demo-namespace
 ```
 You should see the nginx Deployment, Pods, and Service running in the demo-namespace.
 ### ✅ kubectl get namespaces
-![Namespaces] (https://github.com/AnitaCloudTech/terraform-k8s-minikube/blob/main/terraform-k8s-minikube/images/kubectl-get-namespaces.jpg)
+![Namespaces](https://github.com/AnitaCloudTech/terraform-k8s-minikube/blob/main/terraform-k8s-minikube/images/kubectl-get-namespaces.jpg)
 
 
 6.(Optional) Access the Minikube dashboard:
