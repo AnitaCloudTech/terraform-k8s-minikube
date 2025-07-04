@@ -29,19 +29,21 @@ terraform-k8s-minikube/
 
 ```bash
 minikube start --driver=docker --memory=1968 --cpus=2
-
+```
 2.Check Minikube is running:
 
 ```bash
 kubectl get nodes
+```
 ### ✅ kubectl get nodes
-
+```
 ![Nodes](images/kubectl-get-nodes.jpg)
 
 3.Initialize Terraform:
 
 ```bash
 terraform init
+```
 ### ✅ terraform init
 ![Terraform Init](images/terraform-init.jpg)
 
@@ -49,6 +51,7 @@ terraform init
 
 ```bash
 terraform apply
+```
 ### ✅ terraform apply
 ![Terraform Apply](images/terraform-apply.jpg)
 
@@ -59,7 +62,7 @@ Type yes when prompted to confirm the creation of resources.
 ```bash
 kubectl get namespaces
 kubectl get all -n demo-namespace
-
+```
 You should see the nginx Deployment, Pods, and Service running in the demo-namespace.
 ### ✅ kubectl get namespaces
 ![Namespaces](images/kubectl-get-namespaces.jpg)
@@ -68,5 +71,5 @@ You should see the nginx Deployment, Pods, and Service running in the demo-names
 
 ```bash
 minikube dashboard
-
+```
 A web-based dashboard for managing Kubernetes resources will open in your browser.
