@@ -36,8 +36,8 @@ minikube start --driver=docker --memory=1968 --cpus=2
 kubectl get nodes
 ```
 ### ✅ kubectl get nodes
-```
-![Nodes](images/kubectl-get-nodes.jpg)
+
+![images](images/kubectl-get-nodes.jpg)
 
 3.Initialize Terraform:
 
@@ -45,7 +45,7 @@ kubectl get nodes
 terraform init
 ```
 ### ✅ terraform init
-![Terraform Init](images/terraform-init.jpg)
+![images](images/terraform-init.jpg)
 
 4.Apply the Terraform configuration:
 
@@ -53,7 +53,7 @@ terraform init
 terraform apply
 ```
 ### ✅ terraform apply
-![Terraform Apply](images/terraform-apply.jpg)
+![images](images/terraform-apply.jpg)
 
 Type yes when prompted to confirm the creation of resources.
 5.Verify the resources in Kubernetes:
@@ -65,7 +65,7 @@ kubectl get all -n demo-namespace
 ```
 You should see the nginx Deployment, Pods, and Service running in the demo-namespace.
 ### ✅ kubectl get namespaces
-![Namespaces](images/kubectl-get-namespaces.jpg)
+![images](images/kubectl-get-namespaces.jpg)
 
 6.(Optional) Access the Minikube dashboard:
 
