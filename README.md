@@ -22,7 +22,7 @@ terraform-k8s-minikube/
     ├── kubectl-get-nodes.jpg
     ├── terraform-init.jpg
     └── terraform-apply.jpg
-
+```
 🚀 Setup Instructions
 
 1. Start Minikube (adjust memory/CPU based on your system):
@@ -37,7 +37,7 @@ kubectl get nodes
 ```
 ### ✅ kubectl get nodes
 
-![images](images/kubectl-get-nodes.jpg)
+![images](images/kubectlgetnodes.jpg)
 
 3.Initialize Terraform:
 
@@ -45,7 +45,7 @@ kubectl get nodes
 terraform init
 ```
 ### ✅ terraform init
-![images](images/terraform-init.jpg)
+![images](images/terraforminit.jpg)
 
 4.Apply the Terraform configuration:
 
@@ -53,7 +53,7 @@ terraform init
 terraform apply
 ```
 ### ✅ terraform apply
-![images](images/terraform-apply.jpg)
+![images](images/terraformapply.jpg)
 
 Type yes when prompted to confirm the creation of resources.
 5.Verify the resources in Kubernetes:
@@ -65,7 +65,7 @@ kubectl get all -n demo-namespace
 ```
 You should see the nginx Deployment, Pods, and Service running in the demo-namespace.
 ### ✅ kubectl get namespaces
-![images](images/kubectl-get-namespaces.jpg)
+![images](images/kubectlgetnamespaces.jpg)
 
 6.(Optional) Access the Minikube dashboard:
 
