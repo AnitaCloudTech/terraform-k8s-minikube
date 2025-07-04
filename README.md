@@ -23,7 +23,7 @@ terraform-k8s-minikube/
     ├── terraform-init.jpg
     └── terraform-apply.jpg
 
-## 🚀 Setup Instructions
+🚀 Setup Instructions
 
 1. Start Minikube (adjust memory/CPU based on your system):
 
@@ -35,6 +35,7 @@ minikube start --driver=docker --memory=1968 --cpus=2
 ```bash
 kubectl get nodes
 ### ✅ kubectl get nodes
+
 ![Nodes](images/kubectl-get-nodes.jpg)
 
 3.Initialize Terraform:
