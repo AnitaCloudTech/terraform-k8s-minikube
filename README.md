@@ -10,6 +10,8 @@ Make sure the following tools are installed and properly configured:
 ✅ Docker (required if using Docker driver with Minikube)  
 
 ## 📂 Project Structure
+
+```plaintext
 terraform-k8s-minikube/
 ├── main.tf
 ├── provider.tf
@@ -19,7 +21,7 @@ terraform-k8s-minikube/
     ├── kubectl-get-namespaces.jpg
     ├── kubectl-get-nodes.jpg
     ├── terraform-init.jpg
-    ├── terraform-apply.jpg
+    └── terraform-apply.jpg
 
 ## 🚀 Setup Instructions
 
